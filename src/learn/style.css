@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.card{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 20rem;
+    height: 20rem;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.card img{
+    width: 100%;
+    height: 12rem;
+}
+
+.details{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0.5rem 0;
+}
+
+.details span{
+    font-size: 2rem;
+}
+
+.cart{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.cart span{
+    font-size: 3rem;
+    padding: 0 1vw;
+    background-color: blueviolet;
+}
+
+/* login starts */
+
+.logInOut{
+    width: 100%;
+    height: 100vh;
+    /* background: linear-gradient(rgb(20, 153, 87), rgb(184, 83, 100), rgb(192, 115, 64)); */
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(101,9,121,1) 45%, rgba(0,212,255,1) 100%);
+    color: #fff;
+    padding-top: 10rem;
+}
+
+.login,.logout{
+    width: 20rem;
+    height: auto;
+    border: 2px solid white;
+    background-color: none;      
+    margin: auto;
+    text-align: center;
+    padding: 4rem;
+    box-shadow: 0 0 5px 0 black;
+}
+
+.login h1{
+    text-transform: capitalize;
+}
+
+.login input{
+    display: block;
+    margin: 2rem auto;
+    outline: none;
+    color: #000;
+    /* border: none; */
+}
+
+.login input::placeholder{
+    color: #000;
+    margin-left: 10px;
+}
+
+.login input:focus{
+    border: 3px solid rgb(59, 126, 226);
+}
+
+.login button,.logout button{
+    border: 2px solid #fff;
+    padding: 10px;
+    margin-top: 2rem;
+    font-size: 1rem;
+}
+
+.logout{
+    text-transform: capitalize
+}
+
+/* login ends */
+
+
+/* Form starts */
+
+.Form{
+    width: 100%;
+    height: 100vh;
+    background-color: blueviolet;
+    padding-top: 10rem;
+}
+
+.mainform,.logouttt{
+    width: 20rem;
+    height: 20rem;
+    margin: auto;
+    padding: 2rem;
+    border: 2px solid blanchedalmond;
+    text-align: center;
+}
+
+.Form h1{
+    text-transform: capitalize;
+}
+
+.Form input{
+    margin-top: 1rem;
+}
+
+.Form .btn{
+    font-size: 1.5vw;
+    padding: 10px;
+    border: 2px solid white;
+}
+
+.logouttt button{
+    margin-top: 2rem;
+    font-size: 1.5vw;
+    padding: 10px;
+    border: 2px solid white;
+}
+
+/* Form ends */
+
+
+/* tailwind starts here  */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* if these 3 line giving problem then go to setting by clicking (ctrl + ,) and search (Unknown at-rule) 
+and then in css lint select ignore instead of warning   */

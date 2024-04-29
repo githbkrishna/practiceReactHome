@@ -1,0 +1,65 @@
+{
+  "devlopres": [
+    {
+      "id": 1,
+      "fullname": "Ram singh",
+      "userId": "abc@mail.com",
+      "role": "Frontend Devloper",
+      "age": 22,
+      "imgurl": "https://images.pexels.com/photos/938639/pexels-photo-938639.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "desc": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. iure quae id reiciendis."
+    },
+    {
+      "id": 2,
+      "fullname": "Hari Babu",
+      "userId": "abc@mail.com",
+      "role": "Frontend Devloper",
+      "age": 12,
+      "imgurl": "https://images.pexels.com/photos/7580984/pexels-photo-7580984.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "desc": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. iure quae id reiciendis."
+    },
+    {
+      "id": 3,
+      "fullname": "Nidhee Jha",
+      "userId": "abc@mail.com",
+      "role": "Frontend Devloper",
+      "age": 14,
+      "imgurl": "https://images.pexels.com/photos/8887274/pexels-photo-8887274.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "desc": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. iure quae id reiciendis."
+    },
+    {
+      "id": 4,
+      "fullname": "Radhe krishna",
+      "userId": "abc@mail.com",
+      "role": "Frontend Devloper",
+      "age": 14,
+      "imgurl": "https://images.pexels.com/photos/1684724/pexels-photo-1684724.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "desc": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. iure quae id reiciendis."
+    },
+    {
+      "id": 5,
+      "fullname": "Lovly singh",
+      "userId": "abc@mail.com",
+      "role": "Frontend Devloper",
+      "age": 14,
+      "imgurl": "https://images.pexels.com/photos/5500474/pexels-photo-5500474.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "desc": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. iure quae id reiciendis."
+    },
+    {
+      "fullname": "jiony",
+      "userId": "abc@mail.com",
+      "age": "23",
+      "role": "influencer",
+      "imgurl": "https://images.pexels.com/photos/5146278/pexels-photo-5146278.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
+      "id": 6
+    },
+    {
+      "fullname": "ragini",
+      "userId": "ragini@mail.com",
+      "age": "23",
+      "role": "model",
+      "imgurl": "https://images.pexels.com/photos/2723623/pexels-photo-2723623.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "id": 7
+    }
+  ]
+}
